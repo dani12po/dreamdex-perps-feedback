@@ -1,0 +1,14 @@
+# dreamdex-bot-kit @ 2579866 (main, cloned 2026-10-26)
+$ grep markets-sdk packages/perp-core/package.json
+    "@somnia-chain/markets-sdk": "^0.31.0",
+$ package-lock.json entry
+2575:    "packages/perp-core/node_modules/@somnia-chain/markets-sdk": {
+2576-      "version": "0.31.0",
+2577-      "resolved": "https://registry.npmjs.org/@somnia-chain/markets-sdk/-/markets-sdk-0.31.0.tgz",
+$ (cd packages/perp-core && npx tsx chk.mts)
+SOMNIA_HIDEKI_TESTNET_ADDRESSES: undefined
+trader.claimPerpVoucher: undefined | client.getPerpVoucherEligibility: undefined | client.getMaxPerpOrderSize: function
+
+# Same script against a clean install of @somnia-chain/markets-sdk@0.32.1 (the version the docs page targets):
+SOMNIA_HIDEKI_TESTNET_ADDRESSES: object
+trader.claimPerpVoucher: function | client.getPerpVoucherEligibility: function | client.getMaxPerpOrderSize: function
