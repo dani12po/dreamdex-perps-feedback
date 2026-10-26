@@ -1,0 +1,17 @@
+## 1) SDK 0.32.1 (write0.ts): signer 0x365793549966b12BD08B4B2B43915dD129A2dAF9 holding 0 STT on chain 50383
+ERR claimPerpVoucher(0 STT) ContractRevertError  @somnia-chain/markets-sdk: claim reverted: Missing or invalid parameters.
+Double check you have provided the correct parameters.
+  cause: InvalidInputRpcError Missing or invalid parameters.
+Double check you have provided the correct parameters.
+ERR placePerpOrder(doc example, empty account) ContractRevertError  @somnia-chain/markets-sdk: placeOrder reverted: Missing or invalid parameters.
+Double check you have provided the correct parameters.
+  cause: InvalidInputRpcError Missing or invalid parameters.
+Double check you have provided the correct parameters.
+
+## 2) Same claim() tx signed locally (nonce 0, gas 10,000,000, maxFeePerGas 6 gwei) and sent raw over wss://api.hideki2.infra.testnet.somnia.network/ws (raw.mjs)
+eth_sendRawTransaction -> {"jsonrpc":"2.0","id":1,"error":{"code":-32000,"message":"account does not exist","data":"0x02"}}
+
+## 3) eth_getBalance
+{"jsonrpc":"2.0","id":1,"result":"0x0"}
+## 4) SDK error object fields (write1.ts)
+ERR ContractRevertError errorName= undefined data= 0x02 msg= @somnia-chain/markets-sdk: claim reverted: Missing or invalid parameters.
