@@ -1,0 +1,38 @@
+
+> dreamdex-bot-kit@0.1.0 perp:doctor
+> npx tsx scripts/perp-doctor.ts
+
+
+network  : hideki (chain 50383)
+indexer  : https://hideki-dev.smk.somnia.host/v1/graphql
+wallet   : 0x365793549966b12BD08B4B2B43915dD129A2dAF9
+gas      : 0 STT
+wallet USDso : 0.0000 (in-wallet, not margin)
+margin   : unlocked 0.00 · locked 0.00 · equity 0.00 · withdrawable 0.00 · status Healthy · health ∞ (no position)
+           ^ empty bank: approve the MarginBank and deposit collateral before trading.
+positions: none
+
+markets  : 21 live
+
+ZRO-PERP   mark=1.77 · funding 10.950% (pays shorts) · book[bid=1.76 ask=1.77] · tick=0.0001 lot=0.1 minQty=5.1 IM=2000bps
+LIT-PERP   mark=3.17 · funding 10.950% (pays shorts) · book[bid=3.17 ask=3.18] · tick=0.0001 lot=0.1 minQty=2.8 IM=2000bps
+VVV-PERP   mark=25.14 · funding 10.950% (pays shorts) · book[bid=25.10 ask=25.14] · tick=0.001 lot=0.01 minQty=0.44 IM=2000bps
+1000PEPE-PERP mark=0.004272 · funding 10.950% (pays shorts) · book[bid=0.004265 ask=0.004277] · tick=0.0000001 lot=100 minQty=2700 IM=2000bps
+PUMP-PERP  mark=0.004256 · funding 10.950% (pays shorts) · book[bid=0.004250 ask=0.004264] · tick=0.000001 lot=100 minQty=1800 IM=2000bps
+ZEC-PERP   mark=1211.37 · funding 10.950% (pays shorts) · book[bid=1210.90 ask=1211.58] · tick=0.001 lot=0.001 minQty=0.009 IM=2000bps
+TAO-PERP   mark=253.04 · funding 10.950% (pays shorts) · book[bid=252.72 ask=253.37] · tick=0.001 lot=0.001 minQty=0.044 IM=2000bps
+WLD-PERP   mark=0.4507 · funding 10.950% (pays shorts) · book[bid=0.4508 ask=0.4520] · tick=0.0001 lot=1 minQty=26 IM=2000bps
+NEAR-PERP  mark=4.59 · funding 10.950% (pays shorts) · book[bid=4.59 ask=4.59] · tick=0.0001 lot=0.1 minQty=5.1 IM=1000bps
+XLM-PERP   mark=0.1683 · funding 10.950% (pays shorts) · book[bid=0.1681 ask=0.1687] · tick=0.0001 lot=1 minQty=54 IM=1000bps
+AVAX-PERP  mark=8.94 · funding 10.950% (pays shorts) · book[bid=8.94 ask=8.95] · tick=0.001 lot=0.1 minQty=1.4 IM=1000bps
+LINK-PERP  mark=11.44 · funding 10.950% (pays shorts) · book[bid=11.43 ask=11.46] · tick=0.001 lot=0.1 minQty=0.9 IM=1000bps
+SUI-PERP   mark=0.9205 · funding 10.950% (pays shorts) · book[bid=0.9215 ask=0.9228] · tick=0.0001 lot=1 minQty=13 IM=1000bps
+ADA-PERP   mark=0.2042 · funding 10.950% (pays shorts) · book[bid=0.2039 ask=0.2045] · tick=0.0001 lot=1 minQty=46 IM=1000bps
+BNB-PERP   mark=738.46 · funding 10.950% (pays shorts) · book[bid=739.04 ask=739.64] · tick=0.001 lot=0.001 minQty=0.014 IM=1000bps
+DOGE-PERP  mark=0.07690 · funding 10.950% (pays shorts) · book[bid=0.07690 ask=0.07702] · tick=0.00001 lot=10 minQty=120 IM=1000bps
+XRP-PERP   mark=1.29 · funding -65.402% (pays longs) · book[bid=1.29 ask=1.29] · tick=0.0001 lot=0.1 minQty=6.9 IM=500bps
+HYPE-PERP  mark=76.72 · funding 10.950% (pays shorts) · book[bid=76.71 ask=76.74] · tick=0.01 lot=0.01 minQty=0.12 IM=500bps
+SOL-PERP   mark=101.30 · funding 10.950% (pays shorts) · book[bid=101.42 ask=101.43] · tick=0.01 lot=0.01 minQty=0.1 IM=500bps
+ETH-PERP   mark=2327.86 · funding 10.950% (pays shorts) · book[bid=2326.36 ask=2326.95] · tick=0.01 lot=0.0001 minQty=0.004 IM=500bps
+BTC-PERP   mark=80000.35 · funding 122.814% (pays shorts) · book[bid=80180.40 ask=80192.90] · tick=0.1 lot=0.00001 minQty=0.00013 IM=500bps
+
